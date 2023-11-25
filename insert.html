@@ -12,6 +12,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 0px 50px 120px 50px;
       
     }
 
@@ -26,23 +27,17 @@
     .link {
       color: #E5E7EB;
       text-decoration: none;
-      margin-right: 18px;
-    }
-    .link1{
-      color: #E5E7EB;
-      text-decoration: none;
-      margin-left: auto;
-      margin-right: 18px;
+      margin-left: 18px;
     }
 
-    p{
+    .paragraph{
       color: #E5E7EB;
       font-family: 'Courier New', Courier, monospace;
     }
 
     .image{
      margin-top: 50px; 
-     max-width: 400px;
+     max-width: 320px;
     }
 
     .heading{
@@ -52,7 +47,7 @@
 
     .two{
       width: 100%;
-      margin-right: 50px;
+      padding-top: 0;
     }
 
     .one{
@@ -67,6 +62,30 @@
       color: white;
       padding: 4px 8px 4px 8px;
       border-radius: 6px;
+    }
+   
+    .info{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 26px;
+      padding-left: auto;
+      padding-right:auto;
+    }
+
+    .info-head{
+      display: flex;
+      justify-content: center;
+    }
+
+    .second-section{
+      padding-bottom: 50px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .image2{
+      width: 110px;   
     }
     
 
@@ -93,7 +112,7 @@
 
      <div class="two">
       <div>
-        <a href="" class="link1"> header link one</a>
+        <a href="" class="link"> header link one</a>
         <a href="" class="link"> header link two</a>
         <a href="" class="link"> header link three</a>
       </div>
@@ -101,6 +120,43 @@
       <img src="image.png" class="image">
      </div>
      </div>
+  </div>
+
+  <div class="info-head">
+    <p class="info">
+      Some random information.
+    </p>
+  </div>
+
+  <div class="second-section">
+    <div class="image2">
+      <img src="image2.png" class="image2">
+      <p>
+        this is some subtext under an illustration or image
+      </p>
+    </div>
+    
+    <div class="image2">
+      <img src="image2.png" class="image2">
+      <p>
+        this is some subtext under an illustration or image
+      </p>
+    </div>
+
+    <div class="image2">
+      <img src="image2.png" class="image2">
+      <p>
+        this is some subtext under an illustration or image
+      </p>
+    </div>
+
+    <div class="image2">
+      <img src="image2.png" class="image2">
+      <p>
+        this is some subtext under an illustration or image
+      </p>
+    </div>
+    
   </div>
 </body>
 </html>
